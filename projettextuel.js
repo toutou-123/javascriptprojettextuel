@@ -69,6 +69,14 @@ while (victory != 1) {
                         console.log("choix invalide. rentrez un choix valide");
                     }
                 }
+                else if (choice == 2){
+                    console.log("vous décidez de vous déplacer lentement en état de paranoïa en pensant qu'un garde se camoufle parmi les armures exposées.");
+                    console.log("vous êtes tellement en paranoïa que vous faites une crise cardiaque à la moitié du chemin");
+                    fail = fail + 1
+                }
+                else {
+                    console.log("choix invalide. rentrez un choix valide");
+                }
             }
             else if(choice ==2){
                 console.log("Vous dites au magicien que vous allez prendre les escaliers principaux. en arrivant au bout vous finissez brûlé par un piège magique.");
